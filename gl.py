@@ -1,5 +1,4 @@
 import struct
-from obj import ObjFile
 
 def char(c):
     return struct.pack('=c', c.encode('ascii'))
